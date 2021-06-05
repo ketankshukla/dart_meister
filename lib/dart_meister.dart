@@ -29,3 +29,13 @@ int fib(int n) {
   }
   return fib(n - 2) + fib(n - 1); //recursive case
 }
+
+String reverse(String str) {
+  return str.split('').reversed.join();
+  // int length = str.length;
+  // String res = '';
+  // for (int i = length - 1; i>= 0; i--) {
+  //   res += str.substring(i, i+1);
+  // }
+  // return res;
+}
